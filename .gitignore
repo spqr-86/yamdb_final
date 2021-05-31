@@ -109,9 +109,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+README.md
 # Spyder project settings
-.spyderproject
+.spyderproje
 .spyproject
 
 # Rope project settings
@@ -148,3 +148,4 @@ dmypy.json
 # папки со статикой и медиа
 posts/static/
 media/
+
