@@ -109,7 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-README.md
+
 # Spyder project settings
 .spyderproje
 .spyproject
@@ -149,3 +149,4 @@ dmypy.json
 posts/static/
 media/
 
+README.md
