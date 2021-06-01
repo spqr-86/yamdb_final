@@ -7,8 +7,8 @@ https://github.com/spqr-86/yamdb_final/actions/workflows/yamdb_workflow.yml/badg
 http://178.154.208.254:81/redoc/
 
 # Установка
-1. Клонируйте репрозиторий
-2. Выполните docker-compose up
+1. Клонируйте репрозиторий ``````
+2. Выполните ```docker-compose up```
 
 # Технологии
 * Python
