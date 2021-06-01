@@ -10,10 +10,9 @@ http://178.154.208.254:81/redoc/
 1. Клонируйте репрозиторий ```https://github.com/spqr-86/yamdb_final```
 2. Установите Docker (https://docs.docker.com/engine/install/)
 3. Выполните ```docker-compose up -d --build```
-5. Для входа в контейнер выполните команду docker docker exec -it yamdb_final_web_1 bash
-6. Выполните:
-  ```docker-compose exec web python manage.py migrate --noinput```
-  ```docker-compose exec web python manage.py createsuperuser```
+4. Выполните:<br>
+  ```docker-compose exec web python manage.py migrate --noinput```<br>
+  ```docker-compose exec web python manage.py createsuperuser```<br>
   ```docker-compose exec web python manage.py collectstatic --no-input ```
 5. Теперь проект доступен по адресу http://127.0.0.1/.
 
