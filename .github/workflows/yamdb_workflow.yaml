@@ -1,6 +1,6 @@
 name: Yamdb-app workflow
 
-on: push
+on: [push]
 
 jobs:
   tests:
@@ -25,10 +25,9 @@ jobs:
         pytest
   build_and_push_to_docker_hub:
       name: Push Docker image to Docker Hub
-      branches:
-        - main
       runs-on: ubuntu-latest
       needs: tests
+      if: github.ref == 'refs/heads/master'
       steps:
         - name: Check out the repo
           uses: actions/checkout@v2
@@ -77,4 +76,4 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: ${{ github.workflow }} успешно выполнен!!
+          message: ${{ github.workflow }} успешно выполнен!
