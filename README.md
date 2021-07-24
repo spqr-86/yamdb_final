@@ -2,8 +2,6 @@
 # Описание сервиса
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».<br>
 ![CI](https://github.com/spqr-86/yamdb_final/workflows/yamdb_workflow/badge.svg)<br>
-![example workflow](https://github.com/spqr-86/yamdb_final/actions/workflows/yamdb_workflow/badge.svg)
-
 
 # Документация
 http://178.154.208.254:81/redoc/
